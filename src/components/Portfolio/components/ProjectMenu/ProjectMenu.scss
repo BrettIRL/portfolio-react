@@ -1,0 +1,38 @@
+.portfolio-menu {
+    .portfolio-menu__button {
+        padding-right: 50px;
+        color: #999;
+        border: 0;
+        text-transform: uppercase;
+        position: relative;
+
+        &.active {
+            color: #4a4a4a;
+        }
+
+        &:after {
+            content: "";
+            position: absolute;
+            width: 7px;
+            height: 2px;
+            bottom: 0;
+            right: 42px;
+            opacity: 0;
+            transition: background .3s;
+            background: #4a4a4a;
+        }
+
+        &:hover {
+            transition: all .15s;
+            color: #4a4a4a;
+
+            &:after {
+                opacity: 1;
+            }
+        }
+
+        &:focus {
+            outline: 0;
+        }
+    }
+}

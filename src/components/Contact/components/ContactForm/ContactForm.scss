@@ -1,0 +1,9 @@
+.form-invalid-icon {
+    opacity: 1 !important;
+    color: #f00 !important;
+}
+.site-btn--form {
+    &:focus {
+        outline: 0;
+    }
+}
