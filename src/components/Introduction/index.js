@@ -29,7 +29,7 @@ class Introduction extends Component {
             <Col md={10}>
               <SectionHeader id="hello_header" text="Hi_" beginAnimate={animateHeader}/>
               <p className="section__description">{ introduction }</p>
-              <a href="assets/files/brettCockingResume-fs.pdf" className="section_btn site-btn" download><img src={btn_icon} alt="Download CV"/>Download CV</a>
+              <a href={process.env.REACT_APP_RESUME_PATH} className="section_btn site-btn" download><img src={btn_icon} alt="Download CV"/>Download CV</a>
             </Col>
           </Row>
         </Container>
