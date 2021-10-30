@@ -1,19 +1,19 @@
 export const menus = [
   {
-    to: "#hello",
-    title: "About Me",
+    to: '#hello',
+    title: 'About Me',
   },
   {
-    to: "#resume",
-    title: "Resume",
+    to: '#resume',
+    title: 'Resume',
   },
   {
-    to: "#portfolio",
-    title: "Projects",
+    to: '#portfolio',
+    title: 'Projects',
   },
   {
-    to: "#contact",
-    title: "Contact",
+    to: '#contact',
+    title: 'Contact',
   },
 ];
 
